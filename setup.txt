@@ -1,0 +1,28 @@
+Project   : poliklinik-app
+Lokasi    : ~/herd/poliklinik-app
+Laravel   : 13.33.0
+Frontend  : Blade
+Server    : Herd
+
+
+
+1. sql : brew services list | grep mysql
+         brew services start mysql
+2. laravel/herr : http://poliklinik-app.test
+3. phpmyadmin.  : cd "$(brew --prefix phpmyadmin)/share/phpmyadmin"
+php -S 127.0.0.1:8080
+
+Username: root
+Password: kosong
+
+
+
+# Cek MySQL
+brew services list | grep mysql
+
+# Kalau stopped
+brew services start mysql
+
+# Kalau mau phpMyAdmin
+cd "$(brew --prefix phpmyadmin)/share/phpmyadmin"
+php -S 127.0.0.1:8080p
